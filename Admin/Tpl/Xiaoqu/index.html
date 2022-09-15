@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">  
+  <button type="button" class="btn btn-success" id="addnew">新增小区</button>
+</form>
+<div style=' text-align:center;'>注：小区排序以排序字段排序，越大越靠前</div>
+<table class="table table-bordered table-hover definewidth m10" >
+
+    <thead>
+    <tr>
+        <th>小区id</th>
+        <th>小区名称</th>
+        <th>位置</th>
+		<th>QQ号</th>
+		<th>QQ群</th>
+		<th>排序</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+	     
+			<Volist name='xiaoqu' id='vo'>
+			<tr>
+            <td>{$vo.xiaoqu_id}</td>
+            <td>{$vo.name}</td>
+			<td>{$vo.quyuname}</td>
+			<td>{$vo.qqhao}</td>
+			<td>{$vo.qqqun}</td>
+            <td>{$vo.paixu}</td>
+            <td>
+                  <a href="{:U('Xiaoqu/edit',array('id'=>$vo[xiaoqu_id]))}">编辑</a>
+				  <a href="{:U('Xiaoqu/del',array('id'=>$vo[xiaoqu_id]))}" onClick='javascript:return confirm("确定要删除吗？");'>删除</a>
+                  
+            </td>
+			</tr>
+			</Volist>
+        </table>
+		</body>
+		</html>
+
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+
+				window.location.href="{:U('Xiaoqu/add',array('lanmu_id'=>$lanmu_id))}";
+		 });
+
+
+    });
+
+	function del(id)
+	{
+		if(confirm("确定要删除吗？"))
+		{
+			var url = "index.html";
+			window.location.href=url;	
+		}
+	}
+</script>

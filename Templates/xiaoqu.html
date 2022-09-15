@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>焦作市家汇装饰工程有限公司</title>
+<meta name="Keywords" content="焦作市家汇装饰工程有限公司,焦作市装修公司,焦作市装饰公司,焦作市家装公司" />
+<meta name="Description" content="焦作市家汇装饰工程有限公司成立于2003年，十年来，家汇人致力于家居设计装饰，工装设计装潢专业设计施工，秉承"设计零缺憾、施工零缺点、材料零抱怨、品质零投诉"的服务理念，在焦作家装界留下了良好的口碑，获得广大客户一致赞扬和认同。" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/style.css" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/index.css" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/neiye.css" />
+<style type='text/css'>
+	.m_category_bd{ display:none;}
+</style>
+</head>
+
+
+<body>
+<include file="./templates/head.html" />
+<div class="middle">
+	<div class="position">您当前的位置：{$position}</div>
+	<div class="left">
+       <div class="cainingxihuan">
+        	<h2>您可能会喜欢</h2>
+            <ul>
+				<Volist name="productrexiao" id='vo'>
+					<li><img src="/uploadfiles/{$vo.image}"/><div><span><a href="#{$vo.product_id}">{$vo.title}</a></span><span class="price">¥{$vo.price}</span></div></li>
+                </Volist>
+			</ul>
+        </div>
+        <div class="cainingxihuan">
+        	<h2>您可能想了解</h2>
+            <ul class="jishuziliao">
+            	<Volist name='xljzxzs' id='vo'>
+            	<li><a href="{:U('Article/info',array('lanmu_id'=>12,'id'=>$vo[article_id]))}">{$vo.title}</a></li>
+                </Volist>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+    	<div class="ad"><img src="__ROOT__/Templates/images/ad.jpg"/></div>
+		<div class='tgpx pinpaisx'>
+			<ul>
+				<li>位置：</li>
+				<li><a href={:U('Xiaoqu/index',array('id'=>I('get.id')))}>全部</a></li>
+				<Volist name='qu' id='vo'>
+				<li><a href={:U('Xiaoqu/index',array('id'=>I('get.id'),'quyu'=>$vo[qu_id]))}>{$vo.name}</a></li>
+				</Volist>
+			</ul>
+		</div>
+        <div class="cplist xqlist">
+        	<ul>
+				<Volist name='xiaoqu' id='vo'>
+					<li>
+						<a href="{:U('Zhaowojia/index',array('id'=>$vo[xiaoqu_id]))}">
+						<img src="/uploadfiles/{$vo.image}" alt="{$vo.name}" width='289' height='220' ></a>
+						<a href={:U('Zhaowojia/index',array('id'=>$vo[xiaoqu_id]))}>{$vo.name}</a>
+						<div><a href='http://wpa.qq.com/msgrd?v=3&uin={$vo.qqhao}&site=qq&menu=yes' ><img src='__ROOT__/Templates/images/zx_qq.gif' alt='' title='' width='74' height='23' /></a>&nbsp;&nbsp;&nbsp;&nbsp;QQ交流群：{$vo.qqqun}</div>
+					</li>
+                </Volist>
+			</ul>
+        </div>
+		<div class='page'>{$page}</div>
+    </div>	
+</div>
+
+<include file="./templates/footer.html" />
+</body>
+</html>

@@ -1,0 +1,492 @@
+[ 2022-09-15T11:25:30+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000044s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000030s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2022-09-15T11:25:33+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `boeno_ads` [ RunTime:0.001046s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id=1 ) LIMIT 6   [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `boeno_class` [ RunTime:0.000916s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 1 ) ORDER BY paixu  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `boeno_pinpai` [ RunTime:0.000427s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_pinpai` WHERE ( lanmu_id=1 ) LIMIT 6   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `boeno_product` [ RunTime:0.000415s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_product` WHERE ( lanmu_id=1 ) LIMIT 8   [ RunTime:0.000865s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id=5 ) LIMIT 6   [ RunTime:0.000155s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id in (3,4) ) ORDER BY paixu  [ RunTime:0.000251s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 3 ) ORDER BY paixu  [ RunTime:0.000188s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 4 ) ORDER BY paixu  [ RunTime:0.000179s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_pinpai` WHERE ( lanmu_id in (3,4) ) LIMIT 6   [ RunTime:0.000125s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_product` WHERE ( lanmu_id=2 ) LIMIT 8   [ RunTime:0.000631s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id=2 ) LIMIT 6   [ RunTime:0.000164s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 2 ) ORDER BY paixu  [ RunTime:0.000217s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_pinpai` WHERE ( lanmu_id=2 ) LIMIT 6   [ RunTime:0.000139s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_product` WHERE ( lanmu_id in (3,4) ) LIMIT 8   [ RunTime:0.000599s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 6 ) LIMIT 0,2   [ RunTime:0.000160s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 6 ) LIMIT 2,1   [ RunTime:0.000140s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 6 ) LIMIT 3,3   [ RunTime:0.000113s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 14 ) LIMIT 0,1   [ RunTime:0.000160s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 14 ) LIMIT 1,2   [ RunTime:0.000117s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 14 ) LIMIT 3,1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `boeno_article` [ RunTime:0.000427s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_article` WHERE ( lanmu_id = 8 and zhuangtai = 1 ) ORDER BY article_id desc LIMIT 3   [ RunTime:0.000236s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_article` WHERE ( lanmu_id = 8 ) ORDER BY article_id desc LIMIT 4   [ RunTime:0.000256s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 8 )  [ RunTime:0.000127s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 8 )  [ RunTime:0.000149s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 11 )  [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `boeno_xiaoqu` [ RunTime:0.000377s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_xiaoqu` WHERE ( lanmu_id = 13 ) ORDER BY paixu desc LIMIT 8   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `boeno_msshezhi` [ RunTime:0.000320s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_msshezhi` WHERE ( `mscon_id` = 1 )  [ RunTime:0.000113s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_msshezhi` WHERE ( `mscon_id` = 2 )  [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `boeno_hongbao` [ RunTime:0.000324s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_hongbao`  [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `boeno_link` [ RunTime:0.000321s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_link`  [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000039s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000026s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2022-09-15T11:30:43+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `boeno_ads` [ RunTime:0.001036s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id=1 ) LIMIT 6   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `boeno_class` [ RunTime:0.000392s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 1 ) ORDER BY paixu  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `boeno_pinpai` [ RunTime:0.000370s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_pinpai` WHERE ( lanmu_id=1 ) LIMIT 6   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `boeno_product` [ RunTime:0.000381s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_product` WHERE ( lanmu_id=1 ) LIMIT 8   [ RunTime:0.017532s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id=5 ) LIMIT 6   [ RunTime:0.000307s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id in (3,4) ) ORDER BY paixu  [ RunTime:0.000229s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 3 ) ORDER BY paixu  [ RunTime:0.000211s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 4 ) ORDER BY paixu  [ RunTime:0.000179s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_pinpai` WHERE ( lanmu_id in (3,4) ) LIMIT 6   [ RunTime:0.000138s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_product` WHERE ( lanmu_id=2 ) LIMIT 8   [ RunTime:0.000446s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id=2 ) LIMIT 6   [ RunTime:0.000174s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 2 ) ORDER BY paixu  [ RunTime:0.000203s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_pinpai` WHERE ( lanmu_id=2 ) LIMIT 6   [ RunTime:0.000127s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_product` WHERE ( lanmu_id in (3,4) ) LIMIT 8   [ RunTime:0.002673s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 6 ) LIMIT 0,2   [ RunTime:0.000183s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 6 ) LIMIT 2,1   [ RunTime:0.000152s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 6 ) LIMIT 3,3   [ RunTime:0.000118s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 14 ) LIMIT 0,1   [ RunTime:0.000154s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 14 ) LIMIT 1,2   [ RunTime:0.000134s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 14 ) LIMIT 3,1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `boeno_article` [ RunTime:0.000509s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_article` WHERE ( lanmu_id = 8 and zhuangtai = 1 ) ORDER BY article_id desc LIMIT 3   [ RunTime:0.000265s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_article` WHERE ( lanmu_id = 8 ) ORDER BY article_id desc LIMIT 4   [ RunTime:0.000266s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 8 )  [ RunTime:0.000143s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_class` WHERE ( lanmu_id = 8 )  [ RunTime:0.000168s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_ads` WHERE ( lanmu_id = 11 )  [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `boeno_xiaoqu` [ RunTime:0.000432s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_xiaoqu` WHERE ( lanmu_id = 13 ) ORDER BY paixu desc LIMIT 8   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `boeno_msshezhi` [ RunTime:0.000337s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_msshezhi` WHERE ( `mscon_id` = 1 )  [ RunTime:0.000135s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_msshezhi` WHERE ( `mscon_id` = 2 )  [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `boeno_hongbao` [ RunTime:0.000336s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_hongbao`  [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `boeno_link` [ RunTime:0.000338s ]
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `boeno_link`  [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [2] preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead /Users/hanwenjie/home/workspace/boeno/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000059s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000027s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000036s ]
+

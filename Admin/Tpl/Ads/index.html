@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">  
+    广告名称：
+    <input type="text" name="rolename" id="rolename"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">添加广告</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>广告id</th>
+		<th>广告图片</th>
+        <th>广告名称</th>
+        <th>广告宽度</th>
+        <th>广告高度</th>
+         <if condition="($lanmu_id eq 6)">
+        	<th>10人团购价</th>
+        	<th>30人团购价</th>
+         </if>
+		<th>广告链接</th>
+		<th>广告栏目</th>
+		<th>操作</th>
+    </tr>
+    </thead>
+    <Volist name='ads' id='vo'>
+	     <tr>
+            <td>{$vo.ad_id}</td>
+            <td><img src='/uploadfiles/{$vo.image}' width='70'/></td>
+            <td>{$vo.title}</td>
+			<td>{$vo.width}</td>
+			<td>{$vo.height}</td>
+			<if condition="($lanmu_id eq 6)">
+	        	<td>{$vo.10price}</td>
+	        	<td>{$vo.30price}</td>
+	         </if>
+			<td>{$vo.link}</td>
+			<td>{$vo.lanmu_name}</td>
+            <td>
+                  <a href="__APP__/Ads/edit?id={$vo.ad_id}&lanmu_id={$lanmu_id}">编辑</a>
+                  <a href="__APP__/Ads/del?id={$vo.ad_id}" onclick='javascript:return  confirm("确定要删除吗？");'>删除</a>
+            </td>
+        </tr>
+       </Volist>
+       </table>
+		</body>
+		</html>
+
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+				window.location.href="__APP__/Ads/add?id={$lanmu_id}";
+		 });
+
+
+    });
+
+	function del(id)
+	{
+		
+		
+		if(confirm("确定要删除吗？"))
+		{
+		
+			var url = "index.html";
+			
+			window.location.href=url;		
+		
+		}
+	
+	
+	
+	
+	}
+</script>

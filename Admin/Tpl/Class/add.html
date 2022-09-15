@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+ 
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('Class/addok')}" method="post" class="definewidth m20">
+<table class="table table-bordered table-hover definewidth m10">
+<input type="hidden" name="lanmu_id" value='{$lanmu_id}'/>
+    <tr>
+        <td width="10%" class="tableleft">类别名称</td>
+        <td><input type="text" name="class_name"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">排序</td>
+        <td><input type="text" name="paixu"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">关键词</td>
+        <td><input type="text" name="keyword"/><span style='color:#f00;'>多个以&nbsp;,&nbsp;分割</span></td>
+    </tr>
+	<tr>
+        <td class="tableleft">类别描述</td>
+        <td><input type="text" name="description"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">添加</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="__APP__/Class/index?id={$lanmu_id}";
+		 });
+
+    });
+</script>

@@ -1,0 +1,31 @@
+        public static string Send(string PhoneNumber, string SMSContent)
+        {
+            string tmp = "";
+            if (PhoneNumber != "")
+            {
+                string accountname = "sdktest";
+                string accountpwd = "";
+                Encoding encoding = Encoding.GetEncoding("GBK");
+                string postData = "accountname=" + accountname;
+                postData += ("&accountpwd=" + accountpwd);
+                postData += ("&mobilecodes=" + PhoneNumber);
+                postData += ("&msgcontent=" + SMSContent);
+                byte[] data = encoding.GetBytes(postData);
+                // Prepare web request
+                HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create("http://csdk.zzwhxx.com:8002/submitsms.aspx");
+
+                myRequest.Method = "POST";
+                myRequest.Timeout = 10000;
+                myRequest.ContentType = "application/x-www-form-urlencoded";
+                myRequest.ContentLength = data.Length;
+                Stream newStream = myRequest.GetRequestStream();
+                // Send the data.
+                newStream.Write(data, 0, data.Length);
+                newStream.Close();
+                //接收返回信息：
+                HttpWebResponse response = (HttpWebResponse)myRequest.GetResponse();
+                StreamReader sreader = new StreamReader(response.GetResponseStream(), Encoding.Default);
+                tmp = sreader.ReadToEnd();
+            }
+            return tmp;
+        }

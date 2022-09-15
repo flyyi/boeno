@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('Menu/editok')}" method="post" class="definewidth m20">
+<table class="table table-bordered table-hover m10">
+<input type='hidden' value='{$lanmu.lanmu_id}' name='lanmu_id' />
+	 <tr>
+        <td width="10%" class="tableleft">栏目类型</td>
+        <td>
+            <select name="lanmutype">
+				<option value="{$lanmu.lanmutype}"	>&nbsp;{$lanmu.lanmutypename}</option>
+				<option value="1"	>&nbsp;单页栏目</option>
+				<option value='2'   >&nbsp;文章列表</option>
+				<option value='3'   >&nbsp;产品列表</option>
+			</select>
+        </td>
+    </tr>
+    <tr>
+        <td width="10%" class="tableleft">上级栏目</td>
+        <td>
+            <select name="toplanmu_id">
+				<option value="{$lanmu.toplanmu_id}"	>&nbsp;{$lanmu.toplanmu_name}</option>
+				<option value="0">一级菜单</option>
+				<Volist name='toplanmu' id='vo'>
+					<option value='{$vo.lanmu_id}'>{$vo.lanmu_name}</option>
+				</Volist>
+			</select>
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft">名称</td>
+        <td><input type="text" name="lanmu_name" value="{$lanmu.lanmu_name}"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">排序</td>
+        <td><input type="text" name="paixu" value="{$lanmu.paixu}"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">关键词</td>
+        <td><input type="text" name="keyword" value="{$lanmu.keyword}"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">描述</td>
+        <td><textarea name="description" style='width:300px; height:100px;'>{$lanmu.description}</textarea></td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="{:U('Menu/index')}";
+		 });
+
+    });
+</script>

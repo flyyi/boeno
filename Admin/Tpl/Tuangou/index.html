@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">  
+    商品名称：
+    <input type="text" name="rolename" id="rolename"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">添加团购</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>团购id</th>
+		<th>团购商品</th>
+        <th>团购开始时间</th>
+        <th>团购结束时间</th>
+		<th>10人团购价</th>
+        <th>30人团购价</th>
+		<th>当前团购人数</th>
+		<th>操作</th>
+    </tr>
+    </thead>
+    <Volist name='tuangou' id='vo'>
+	     <tr>
+            <td>{$vo.tuangou_id}</td>
+            <td><a href='/index.php/Product/info?id={$vo.product_id}&lanmu_id={$vo.lanmu_id}' target='_blank'>{$vo.title}</a></td>
+            <td>{$vo.starttime}</td>
+			<td>{$vo.endtime}</td>
+			<td>{$vo.10price}</td>
+			<td>{$vo.30price}</td>
+			<td>{$vo.tuangourenshu}</td>
+            <td>
+                  <a href="__APP__/Tuangou/edit?id={$vo.tuangou_id}">编辑</a>
+                  <a href="#">查看</a>
+                  <a href="__APP__/Tuangou/del?id={$vo.tuangou_id}" onclick='javascript:return  confirm("确定要删除吗？");'>删除</a>
+            </td>
+        </tr>
+       </Volist>
+       </table>
+	   <div class='page'>{$page}</div>
+		</body>
+		</html>
+
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+				window.location.href="__APP__/Tuangou/add?id={$lanmu_id}";
+		 });
+    });
+
+	function del(id)
+	{
+		
+		
+		if(confirm("确定要删除吗？"))
+		{
+		
+			var url = "index.html";
+			
+			window.location.href=url;		
+		
+		}
+	
+	
+	
+	
+	}
+</script>

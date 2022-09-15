@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>焦作市家汇装饰工程有限公司</title>
+<meta name="Keywords" content="焦作市家汇装饰工程有限公司,焦作市装修公司,焦作市装饰公司,焦作市家装公司" />
+<meta name="Description" content="焦作市家汇装饰工程有限公司成立于2003年，十年来，家汇人致力于家居设计装饰，工装设计装潢专业设计施工，秉承"设计零缺憾、施工零缺点、材料零抱怨、品质零投诉"的服务理念，在焦作家装界留下了良好的口碑，获得广大客户一致赞扬和认同。" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/style.css" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/index.css" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/neiye.css" />
+<script src="/Templates/js/jq.min.js" type="text/javascript"></script>
+<script src="/Templates/js/js.js" type="text/javascript"></script>
+<style type='text/css'>
+	.m_category_bd{ display:none;}
+	.memberlogin{ width:600px; height:350px;  border-radius:10px; box-shadow: #666 0px 0px 10px; background:#E2E6E7; margin:40px auto; padding:20px 0;}
+	.memberlogin label{ height:80px; line-height:80px; display:block; font-size:14px; }
+	.memberlogin input{ margin:22px 0; height:30px; width:180px;}
+	.memberlogin img{ margin:22px 0; }
+	.memberlogin h2{ font-size:22px; font-weight:bold; text-align:center;}
+	.memberlogin #verify{ width:80px;}
+	.memberlogin #submit{ background:#0071CF; color:#fff; width:120px; border:none;  box-shadow: #666 0px 0px 10px; border-radius:4px;}
+</style>
+<link href="http://dcp.net361.net/templates/css/magiczoomplus.css" rel="stylesheet" type="text/css" />
+<script src="http://dcp.net361.net/templates/js/magiczoomplus.js"  type="text/javascript" ></script>
+</head>
+
+
+<body>
+<include file="./templates/head.html" />
+<div class="middle danye">
+	<div class="position">您当前的位置：<a href="#">首页</a>&nbsp;>&nbsp;{$lanmu.lanmu_name}</div>
+	<div class="dyleft">
+    	<div class="tit">家汇装饰</div>
+        <ul>
+        	<li><span><lanmu lanmu_id='18'>[field.lanmu_name]</lanmu></span>
+            	<ul>
+                	<lanmulist toplanmu_id='18' limit='5' order='paixu'>
+                		<li><a href="{:U('Danye/index',array('lanmu_id'=>[field.lanmu_id]))}" target='_blank'>[field.lanmu_name]</a></li>
+					</lanmulist>
+                </ul>
+            </li>
+        </ul>
+       <ul>
+        	<li><span><lanmu lanmu_id='23'>[field.lanmu_name]</lanmu></span>
+            	<ul>
+                	<lanmulist toplanmu_id='23' limit='5' order='paixu'>
+                		<li><a href="{:U('Danye/index',array('lanmu_id'=>[field.lanmu_id]))}" target='_blank'>[field.lanmu_name]</a></li>
+					</lanmulist>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+        	<li><span><lanmu lanmu_id='28'>[field.lanmu_name]</lanmu></span>
+            	<ul>
+                	<lanmulist toplanmu_id='28' limit='5' order='paixu'>
+                		<li><a href="{:U('Danye/index',array('lanmu_id'=>[field.lanmu_id]))}" target='_blank'>[field.lanmu_name]</a></li>
+					</lanmulist>
+                </ul>
+            </li>
+        </ul>
+		<ul>
+        	<li><span><lanmu lanmu_id='31'>[field.lanmu_name]</lanmu></span>
+            	<ul>
+                	<lanmulist toplanmu_id='31' limit='5' order='paixu'>
+                		<li><a href="{:U('Danye/index',array('lanmu_id'=>[field.lanmu_id]))}" target='_blank'>[field.lanmu_name]</a></li>
+					</lanmulist>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="dyright">
+    	<div class="tit"><span>{$lanmu.lanmu_name}</span></div>
+       <div class="dyright_c">
+			<form action="{:U('Member/login')}" class='memberlogin' method='post'>
+				<h2>家汇装饰会员登录</h2>
+				<label>姓　名：<input type='text' name='member_name' /></label>
+				<label>电　话：<input type='text' name='member_telphone' /></label>
+				<label>验证码：<input type='text' id='verify' name='verify'/> <img src='__APP__/Public/verify/' onclick=javascript:this.src='__APP__/Public/verify/'+Math.random() /></label>
+				<label><input type='submit' id='submit' value='登录' /></label>
+			</form>
+       </div>
+    </div>	
+</div>
+<include file="./templates/footer.html" />
+</body>
+</html>

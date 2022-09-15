@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+	<script charset="utf-8" src="/include/editor/kindeditor.js"></script>
+	<script charset="utf-8" src="/include/editor/lang/zh_CN.js"></script>
+	<script language="javascript" type="text/javascript" src="/include/datecj/WdatePicker.js"></script>
+	<script>
+			KindEditor.ready(function(K) {
+					window.editor = K.create('#content');
+			});
+	</script>
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+		label{ float:left; padding:0 5px;}
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('Sgcontent/editok')}" enctype="multipart/form-data" method="post" class="definewidth m20">
+<table class="table table-bordered table-hover definewidth m10">
+<input type="hidden" name="sg_content_id" value='{$shigong.sg_content_id}'/>
+<input type="hidden" name="shigong_id" value='{$shigong.shigong_id}'/>
+	<tr>
+        <td class="tableleft">客户姓名</td>
+        <td>{$shigong.kehu_name}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">工程位置</td>
+        <td>{$shigong.address}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">设计公司</td>
+        <td>{$shigong.shejigongsi}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">设计师</td>
+        <td>{$shigong.shejishi}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">施工监理</td>
+        <td>{$shigong.shigongjianli}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">上传时间</td>
+        <td><input type="text" name="uptime" onClick="WdatePicker()" value="{$shigong.uptime}" /></td>
+    </tr>
+	<tr>
+        <td class="tableleft">最新装修进度</td>
+        <td><textarea id='content' name='content' style="width:700px;height:300px;">{$shigong.content}</textarea></td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="{:U('Shigong/index')}";
+		 });
+
+    });
+</script>

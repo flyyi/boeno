@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+	<script charset="utf-8" src="/include/editor/kindeditor.js"></script>
+	<script charset="utf-8" src="/include/editor/lang/zh_CN.js"></script>
+	<script language="javascript" type="text/javascript" src="/include/datecj/WdatePicker.js"></script>
+	<script>
+			KindEditor.ready(function(K) {
+					window.editor = K.create('#content');
+			});
+	</script>
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('Ads/addok')}" enctype="multipart/form-data" method="post" class="definewidth m20">
+<table class="table table-bordered table-hover definewidth m10">
+<input type="hidden" name="lanmu_id" value='{$lanmu_id}'/>
+    <tr>
+        <td width="10%" class="tableleft">广告名称</td>
+        <td><input type="text" name="title"/></td>
+    </tr>
+	<tr>
+        <td class="tableleft">广告图片</td>
+        <td><input type="file" name="image"/></td>
+    </tr>
+	<tr>
+        <td class="tableleft">广告宽度</td>
+        <td><input type="text" name="width"/></td>
+    </tr>
+	<tr>
+        <td class="tableleft">广告高度</td>
+        <td><input type="text" name="height"/></td>
+    </tr>
+    <if condition="($lanmu_id eq 6)">
+    	<tr>
+        	<td class="tableleft">10人团购价</td>
+        	<td><input type="text" name="10price"/></td>
+	    </tr>
+	    <tr>
+	        <td class="tableleft">30人团购价</td>
+	        <td><input type="text" name="30price"/></td>
+	    </tr>
+    </if>
+	<if condition="($ads[lanmu_id] eq 14)">
+    	<tr>
+        	<td class="tableleft">秒杀价</td>
+        	<td><input type="text" name="msprice"/></td>
+	    </tr>
+    </if>
+	<tr>
+        <td class="tableleft">广告链接</td>
+        <td><input type="text" name="link"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">添加</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="__APP__/Ads/index?id={$lanmu_id}";
+		 });
+
+    });
+</script>

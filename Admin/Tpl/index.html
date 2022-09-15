@@ -1,0 +1,48 @@
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>家汇装饰后台管理系统</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link href="/Admin/tpl/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
+  <link href="/Admin/tpl/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
+   <link href="/Admin/tpl/assets/css/main-min.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+
+  <div class="header">
+    
+      <div class="dl-title">
+       <!--<img src="/chinapost/Public//Admin/tpl/assets/img/top.png">-->
+      </div>
+
+    <div class="dl-log">欢迎您，<span class="dl-log-user">{:session('username')}</span><a href="/" target='_blank' title="网站首页" class="dl-log-quit">[网站首页]</a><a href="__APP__/Index/logout" title="退出系统" class="dl-log-quit">[退出]</a>
+    </div>
+  </div>
+   <div class="content">
+    <div class="dl-main-nav">
+      <div class="dl-inform"><div class="dl-inform-title"><s class="dl-inform-icon dl-up"></s></div></div>
+      <ul id="J_Nav"  class="nav-list ks-clear">
+        		<li class="nav-item dl-selected"><div class="nav-item-inner nav-home">系统管理</div></li>
+				<li class="nav-item dl-selected"><div class="nav-item-inner nav-order">商品管理</div></li>
+				<li class="nav-item dl-selected"><div class="nav-item-inner nav-order">家汇管理</div></li>
+      </ul>
+    </div>
+    <ul id="J_NavContent" class="dl-tab-conten">
+
+    </ul>
+   </div>
+  <script type="text/javascript" src="/Admin/tpl/assets/js/jquery-1.8.1.min.js"></script>
+  <script type="text/javascript" src="/Admin/tpl/assets/js/bui-min.js"></script>
+  <script type="text/javascript" src="/Admin/tpl/assets/js/common/main-min.js"></script>
+  <script type="text/javascript" src="/Admin/tpl/assets/js/config-min.js"></script>
+  <script>
+    BUI.use('common/main',function(){
+      var config = [{id:'1',menu:[{text:'系统管理',items:[{id:'3',text:'会员管理',href:'__APP__/Member/index'},{id:'4',text:'用户管理',href:'__APP__/User/index.html'},{id:'6',text:'菜单管理',href:"__APP__/Menu/index"},{id:'7',text:'友链管理',href:'__APP__/Link/index'}]},{text:'报名管理',items:[{id:'13',text:'免费监理报名',href:'__APP__/Baoming/index/type/1'}]}]},{id:'7',homePage :'9',menu:[{text:'商品管理',items:[{id:'9',text:'建材商品',href:'__APP__/Product/index?id=1'},{id:'10',text:'家具商品',href:'__APP__/Product/index?id=2'},{id:'11',text:'家纺商品',href:'__APP__/Product/index?id=3'},{id:'12',text:'家饰商品',href:'__APP__/Product/index?id=4'},{id:'16',text:'品牌管理',href:'__APP__/Pinpai/index'}]},{text:'营销管理',items:[{id:'17',text:'团购管理',href:'__APP__/Tuangou/index'},{id:'18',text:'秒杀管理',href:'__APP__/Miaosha/index'},{id:'23',text:'红包管理',href:'__APP__/Hongbao/index'},{id:'24',text:'已抢红包',href:'__APP__/Yqhb/index'}]},{text:'广告管理',items:[{id:'12',text:'首页主广告',href:'__APP__/Ads/index?id=11'},{id:'13',text:'建材广告',href:'__APP__/Ads/index?id=1'},{id:'14',text:'软装广告',href:'__APP__/Ads/index?id=5'},{id:'15',text:'家具广告',href:'__APP__/Ads/index?id=2'},{id:'16',text:'团购广告',href:'__APP__/Ads/index?id=6'},{id:'17',text:'秒杀广告',href:'__APP__/Ads/index?id=14'},{id:'18',text:'其他广告',href:'__APP__/Ads/index?id=35'}]},{text:'装修管理',items:[{id:'31',text:'找我家',href:'__APP__/Zhaowojia/index?id=13'},{id:'32',text:'小区管理',href:'__APP__/Xiaoqu/index/lanmu_id/13.html'},{id:'33',text:'施工千里眼',href:'__APP__/Shigong/index'}]},{text:'订单管理',items:[{id:'41',text:'商品订购',href:'__APP__/Dinggou/index?type=1'},{id:'42',text:'团购订单',href:'__APP__/Dinggou/index?type=2'},{id:'4',text:'秒杀订单',href:'__APP__/Dinggou/index?type=3'}]}]},{id:'8',homePage :'7',menu:[{text:'单页栏目',items:[<?php echo $dylanmu; ?>]},{text:'文章列表',items:[<?php echo $articlelanmu;?>]}]}];
+      new PageUtil.MainPage({
+        modulesConfig : config
+      });
+    });
+  </script>
+  </body>
+</html>

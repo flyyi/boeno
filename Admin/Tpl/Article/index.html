@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="index.html" method="get">  
+    文章名称：
+    <input type="text" name="rolename" id="rolename"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">添加文章</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="classmanage">类别管理</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>文章id</th>
+		<th>文章图片</th>
+        <th>文章名称</th>
+        <th>文章分类</th>
+		<th>上传时间</th>
+		<th>浏览次数</th>
+		<th>状态</th>
+		<th>操作</th>
+    </tr>
+    </thead>
+    <Volist name='articlelist' id='vo'>
+	     <tr>
+            <td>{$vo.article_id}</td>
+            <td><img src='/uploadfiles/{$vo.image}' width='70'/></td>
+            <td>{$vo.title}</td>
+			<td>{$vo.class_name}</td>
+			<td>{$vo.uptime}</td>
+			<td>{$vo.liulan}</td>
+			<td>{$vo.zhuangtai}</td>
+            <td>
+                  <a href="{:U('Article/edit',array('id'=>$vo[article_id],'lanmu_id'=>$vo[lanmu_id]))}">编辑</a>
+                  <a href="/index.php/Article/info/id/{$vo.article_id}/lanmu_id/{$vo.lanmu_id}" target='blank'>查看</a>
+                  <a href="{:U('Article/del',array('id'=>$vo[article_id]))}" onclick='javascript:return  confirm("确定要删除吗？");'>删除</a>
+            </td>
+        </tr>
+       </Volist>
+       </table>
+	   <div class='page'>{$page}</div>
+		</body>
+		</html>
+
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+				window.location.href="{:U('Article/add',array('id'=>$lanmu_id))}";
+		 });
+		 $('#classmanage').click(function(){
+
+				window.location.href="{:U('Class/index',array('id'=>$lanmu_id))}";
+		 });
+
+
+    });
+
+	function del(id)
+	{
+		
+		
+		if(confirm("确定要删除吗？"))
+		{
+		
+			var url = "index.html";
+			
+			window.location.href=url;		
+		
+		}
+	
+	
+	
+	
+	}
+</script>

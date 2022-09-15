@@ -1,0 +1,152 @@
+<div class="m_header">
+<div class="adtop">
+	<div class="ad01">
+	<ad ad_id='38'>
+	<a href="[field.link]"><img src="/uploadfiles/[field.image]" width='[field.width]' height='[field.height]' alt="[field.title]" title="[field.title]"></a>
+	</ad>
+	</div>
+</div>
+<div class="m_headWrap">
+ <div class="m_head">
+   <div class="m_logo">
+   	<div class="logo_bg"><a name="DB-3-0" href="" title="家汇装饰" target="_blank"><img src="__ROOT__/Templates/images/logo.png" /></a><div class="csqh"><span class="city">焦作</span>【城市切换】</div></div>
+   </div>
+   <div class="m_search">
+    <ul class="m_search_tabs">
+     <li class="selected"><a name="DB-1-1" title="效果图" href="javascript:;">效果图</a></li>
+    </ul>
+    <div class="m_search_con">
+    <form id="top_search" action="" method="get" name="top_search" target="_blank" autocomplete="off">
+     <label id="def_search_k" for="keyword" class="search_label"></label>
+     <input id="keyword" type="text" name="keyword" class="keyword" x-webkit-speech />
+     <input type="hidden" value="encode" name="action" />
+     <input name="DB-1" id="sub_search" type="button" class="search_btn" value="搜索" title="搜索">
+    </form>
+    </div>
+	<p class="hotKey">
+		<a target="_blank" href="">衣柜</a>
+		|<a target="_blank" href="">卫浴</a>
+		|<a target="_blank" href="">厨电</a>
+		|<a target="_blank" href="">窗帘</a>
+		|<a target="_blank" href="">橱柜定制</a>
+		</p>
+   </div>
+   <div class="m_myCart"><img src="__ROOT__/Templates/images/hotphone.jpg" alt="服务热线" title="服务热线" /></div>
+  </div>
+ </div>
+ <div class="m_mainNavWrap">
+  <div class="m_mainNav">
+   <div class="m_category" id="Js_m_category">
+    <h2 class="m_category_hd">网站导航<i class="ico_arrow"></i></h2>
+    <div class="m_category_bd">
+     <ul class="m_category_bd_con">
+           <li id="m_furniture" class="m_category_item">
+       <h3 class="item-hd">
+              	<a target="_blank" name="LM-furniture" href="" title="家汇" class="ico_title">家汇</a>
+ 		       </h3>
+       <div class="item-colBox">
+        <p class="item-col">
+                <a href="{:U('Danye/index',array('lanmu_id'=>7))}" title="家汇简介" target="_blank">家汇简介</a>
+                <a href="{:U('Article/index',array('lanmu_id'=>8))}" title="经典案例" target="_blank">经典案例</a>
+                <a href="{:U('Article/index',array('lanmu_id'=>9))}" title="设计精英" target="_blank">设计精英</a>
+                <a href="{:U('Article/index',array('lanmu_id'=>10))}" title="金牌施工" target="_blank">金牌施工</a>
+                <a href="{:U('Shigong/index')}" title="施工千里眼" target="_blank">施工千里眼</a>
+                <a href="{:U('Xiaoqu/index',array('id'=>13))}" title="找我家" target="_blank">找我家</a>
+                </p>
+       </div>
+            </li>
+
+            <li id="m_material" class="m_category_item">
+       <h3 class="item-hd">
+              	<a target="_blank" name="LM-material" href="__APP__/Product/index?id=1" title="建材" class="ico_title">建材</a>
+              </h3>
+       <div class="item-colBox">
+       		 <p class="item-col">
+                <volist name='fenlei1' id='vo'>
+                	<a href="__APP__/Product/index?id=1&classid={$vo.class_id}" title="{$vo.class_name}" target="_blank">{$vo.class_name}</a>
+                </Volist>
+             </p>
+       </div>
+             </li>
+
+            <li id="m_house" class="m_category_item">
+       <h3 class="item-hd">
+              	<a target="_blank" name="LM-house" href="__APP__/Product/index?id=2" title="家具" class="ico_title">家具</a>
+              </h3>
+       <div class="item-colBox">
+        <p class="item-col">
+                <volist name='fenlei2' id='vo'>
+                	<a href="__APP__/Product/index?id=2&classid={$vo.class_id}" title="{$vo.class_name}" target="_blank">{$vo.class_name}</a>
+                </Volist>
+                </p>
+       </div>
+            </li>
+
+            <li id="m_hardstep" class="m_category_item">
+       <h3 class="item-hd">
+             <a target="_blank" name="LM-house" href="__APP__/Product/index?id=3" title="家纺" class="ico_title">家纺</a>
+              </h3>
+       <div class="item-colBox">
+        <p class="item-col">
+                 <volist name='fenlei3' id='vo'>
+                	<a href="__APP__/Product/index?id=3&classid={$vo.class_id}" title="{$vo.class_name}" target="_blank">{$vo.class_name}</a>
+                </Volist>
+        </p>
+       </div>
+            </li>
+
+            <li id="m_softstep" class="m_category_item">
+       <h3 class="item-hd">
+              <a target="_blank" name="LM-house" href="__APP__/Product/index?id=4" title="家饰" class="ico_title">家饰</a>
+              </h3>
+       <div class="item-colBox">
+        <p class="item-col">
+                 <volist name='fenlei4' id='vo'>
+                	<a href="__APP__/Product/index?id=4&classid={$vo.class_id}" title="{$vo.class_name}" target="_blank">{$vo.class_name}</a>
+                </Volist>
+                </p>
+       </div>
+            </li>
+
+            <li id="m_service" class="m_category_item">
+       <h3 class="item-hd">
+              <span class="ico_title">家装服务</span>
+              </h3>
+       <div class="item-colBox">
+        <p class="item-col">
+                <a href="" title="找装修" target="_blank">找装修</a>
+                <a href="" title="同城配送/安装" target="_blank">同城配送/安装</a>
+                <a href="" title="找设计" target="_blank">找设计</a>
+                <a href="" title="维修保养保洁" target="_blank">维修保养保洁</a>
+                <a href="{:U('Article/index',array('lanmu_id'=>8))}" title="效果图" target="_blank">效果图</a>
+                <a href="{:U('Article/index',array('lanmu_id'=>12))}" title="装修攻略" target="_blank">装修攻略</a>
+                </p>
+       </div>
+             </li>
+           </ul>
+    </div>
+   </div>
+   <ul class="m_mainNav-main" id="Js_m_mainNav-main">
+        <li class="except"><a href="/" title="首页"><span>首页</span></a></li>
+        <li><a href="{:U('Danye/index',array('lanmu_id'=>7))}" title="家汇简介"><span>家汇简介</span></a></li>
+        <li><a href="{:U('Article/index',array('lanmu_id'=>8))}" title="经典案例"><span>经典案例</span></a></li>
+        <li><a href="{:U('Article/index',array('lanmu_id'=>9))}" title="设计精英"><span>设计精英</span></a></li>
+        <li><a href="{:U('Article/index',array('lanmu_id'=>10))}" title="金牌施工"><span>金牌施工</span></a></li>
+        <li><a href="{:U('Shigong/index')}" title="施工千里眼"><span>施工千里眼</span></a></li>
+        <li><a href="{:U('Xiaoqu/index',array('id'=>13))}" title="找我家"><span>找我家</span></a></li>
+        <li><a href="{:U('Member/index',array('lanmu_id'=>34))}" title="会员中心"><span>会员中心</span></a></li>
+        <li><a href="{:U('Danye/index',array('lanmu_id'=>15))}" title="免费监理"><span>免费监理</span></a></li>
+   </ul>
+   <script type="text/javascript">
+   $(function(){
+		$('.m_header .m_mainNav-main > li').each(function(){
+			if($(this).find('a').attr('href').indexOf(window.location.host)){
+				$(this).addClass('cur');
+				return false;
+			}
+		});
+	});
+   </script>
+  </div>
+ </div>
+</div>

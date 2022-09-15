@@ -1,0 +1,7 @@
+
+导入数据库
+
+修改数据库配置文件\data\conf\db.php
+
+
+后台地址/admin.php 账号密码admin

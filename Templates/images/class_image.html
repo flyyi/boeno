@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{jsx:$lanmu.keyword}_{jsx:$webcon.name}</title>
+<meta name="keywords" content="{jsx:$lanmu.keyword}" />
+<meta name="description" content="{jsx:$lanmu.description}" />
+
+<link href="/templates/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/templates/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="/templates/js/js.js"></script>
+</head>
+
+<body>
+	{jsx:include file='head.html'}
+    <div class="middle">
+    	<div class="left">
+        	<div class="gcxmfl">
+               	<div class="gcxmfl_t">工程项目</div>
+                <ul>
+					{jsx:lanmu lanmuid='2,4,5'}
+						<li><a href="http://{jsx:$webcon.domain}/{$lanmu_address}">{$lanmuname}</a></li>
+                    {jsx:/lanmu}
+                 </ul>
+             </div>
+             <div class="dxalzs">
+             	<div class="dxalzs_t">典型{jsx:$lanmu.lanmuname}展示</div>
+                <ul>
+					{jsx:list count=4 sort='paixu,desc' zhuangtai=1}
+                	<li><a href="http://{jsx:$webcon.domain}{$href}"><img src="http://{jsx:$webcon.domain}/uploadfile/thumb/{$imageURL}" alt='{$title}' title='{$title}' width="189" height="126" /></a><br/><a href="http://{jsx:$webcon.domain}{$href}">{$title}</a></li>
+					{jsx:/list}
+                </ul>
+                <div class="dxalzs_t">用户最关心的问答</div>
+                <ul>
+					{jsx:list count=4 lanmuid='11' sort='paixu,desc' zhuangtai=1}
+                	<li><a href="http://{jsx:$webcon.domain}{$href}"><img src="http://{jsx:$webcon.domain}/uploadfile/thumb/{$imageURL}"  alt='{$title}' title='{$title}' width="189" height="126" /></a><br/><a href="http://{jsx:$webcon.domain}{$href}">{$title}</a></li>
+					{jsx:/list}
+                </ul>
+             </div>
+        </div>
+        <div class="right">
+        	{jsx:include file='position.html'}
+			<div class='flsm'>
+				<h1>{jsx:$lanmu.lanmuname}：</h1>{jsx:$lanmu.description}
+			</div>
+            <ul>
+				{jsx:list count='40' sort='paixu,desc'}
+            	<li class="cp">
+                	<a href="http://{jsx:$webcon.domain}{$href}"><img src="http://{jsx:$webcon.domain}/uploadfile/thumb/{$imageURL}" width="180" height="120" alt="{$title}" title="{$title}" /></a>
+                    <div class="cpinfo">
+                    	<ul>
+                        	<li><h2><a href='http://{jsx:$webcon.domain}{$href}'>{$title}</a></h2></li>
+                            <li>设计单位:{$sjdw}</li>
+                            <li>工程地点:{$gcdd}</li>
+                            <li>工程内容:{$gcnr}</li>
+                        </ul>
+                    </div>
+                </li>
+                {jsx:/list}
+            </ul>
+        </div>
+    </div>
+   {jsx:include file='footer.html'}
+</body>
+</html>
+
+ml>

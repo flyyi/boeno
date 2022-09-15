@@ -1,0 +1,27 @@
+/*ui-banner css*/
+.ui-banner:hover .ui-banner-arrows .prev,.ui-banner:hover .ui-banner-arrows .next{visibility:visible;}
+.ui-banner{position:relative;}
+.ui-banner-useBg{background:none repeat-x scroll center top;position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:2}
+.ui-banner-useBg .ui-banner-bg-item{background:none repeat-x scroll center top;float:left;height:100%;overflow:hidden;z-index:2}
+.ui-banner .preview{z-index:0;position:absolute;top:0;left:0;}
+.ui-banner-viewport {margin: 0 auto;position:relative;z-index:4;overflow:hidden;}
+.ui-banner-viewport img{border:0;}
+.ui-banner-nav {overflow:hidden;position:absolute;bottom:6px;z-index:999;/* padding-left:48%; *//*height:12px;*/list-style:none;margin:0;padding:0;}
+.ui-banner-nav li{background-color:#000;filter:alpha(Opacity=50);opacity:0.5;border-radius:50%;font:400 12px/24px arial;width:24px;height:24px;display:inline-block;color:#fff;margin-right:5px;overflow:hidden;cursor:pointer;text-align:center;vertical-align: top;float:left;}
+.ui-banner-nav li.ui-select{background:#0071cf;opacity:1;filter:alpha(Opacity=100);}
+.ui-banner-nav li a{text-decoration:none;color:#fff}
+.ui-banner-content {left:0;top:0;}
+.ui-banner-item {float:left;/*position:absolute;*/overflow:hidden;}
+.ui-banner-item a{display:block;background:none repeat-x scroll center top;position:relative;width:100%;height:100%;}
+
+.ui-banner-arrows {margin:0 auto;height:100%;overflow:hidden;visibility:hidden;position:relative;}
+.ui-banner-arrows a{text-decoration:none}
+.ui-banner-arrows a:hover{text-decoration:none}
+.ui-banner-arrows .prev{background:#000;filter:alpha(Opacity=40);opacity:0.4;color:#fff;font:700 24px/53px LiSu;text-align:center;position:absolute;top:50%;margin-top:-28px;left:0;/* background-position:0 0; */height:53px;width:30px;cursor:pointer;z-index:998;}
+.ui-banner-arrows .next{background:#000;filter:alpha(Opacity=40);opacity:0.4;color:#fff;font:700 24px/53px LiSu;text-align:center;position:absolute;top:50%;margin-top:-28px;right:0;/* background-position:0 -63px; */height:53px;width:30px;cursor:pointer;z-index:998;}
+.ui-banner-btn {background:url(./images/icons.png);}
+ 
+ /* 清除浮动 */
+.ui-banner-clearfix:before, .ui-banner-clearfix:after {content: "";display: table;}
+.ui-banner-clearfix:after {clear: both;}
+.ui-banner-clearfix {*zoom: 1; /*ie6,7*/}

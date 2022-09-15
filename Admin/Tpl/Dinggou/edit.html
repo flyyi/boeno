@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Admin/tpl/Css/style.css" />
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/ckform.js"></script>
+    <script type="text/javascript" src="/Admin/tpl/Js/common.js"></script>
+
+ 
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('Dinggou/editok')}"  enctype="multipart/form-data" method="post" class="definewidth m20">
+<table class="table table-bordered table-hover definewidth m10">
+    <input type="hidden" name="dinggou_id" value="{$dinggou.dinggou_id}"/>
+	<tr>
+        <td width="10%" class="tableleft">订购商品</td>
+        <td><a href="/index.php/Product/info?id={$dinggou.product_id}&lanmu_id={$dinggou.lanmu_id}" target='_blank'>{$dinggou.title}</a></td>
+    </tr>
+    <tr>
+        <td class="tableleft">订购数量</td>
+        <td>{$dinggou.dinggou_num}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">订购时间</td>
+        <td>
+			{$dinggou.dinggou_time|date='Y-m-d H:i:s',###}
+    </tr>
+    <tr>
+        <td class="tableleft">联系方式</td>
+        <td>{$dinggou.telphone}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">真实姓名</td>
+        <td>{$dinggou.truename}</td>
+    </tr>
+	<tr>
+        <td class="tableleft">订购状态</td>
+        <td>
+			<select name='zhuangtai'>
+				<option value='{$dinggou.zhuangtai}'>{$dinggou.zhuangtai}</option>
+				<option value='未联系'>未联系</option>
+				<option value='在跟进'>在跟进</option>
+				<option value='已成交'>已成交</option>
+				<option value='已作废'>已作废</option>
+			</select>
+		</td>
+    </tr>
+	<tr>
+        <td class="tableleft">备注</td>
+        <td><textarea name='beizhu' style='width:400px; height:200px;'>{$dinggou.beizhu}</textarea></a></td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="__APP__/Dinggou/index";
+		 });
+
+    });
+</script>

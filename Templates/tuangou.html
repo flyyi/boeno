@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>焦作市家汇装饰工程有限公司</title>
+<meta name="Keywords" content="焦作市家汇装饰工程有限公司,焦作市装修公司,焦作市装饰公司,焦作市家装公司" />
+<meta name="Description" content="焦作市家汇装饰工程有限公司成立于2003年，十年来，家汇人致力于家居设计装饰，工装设计装潢专业设计施工，秉承"设计零缺憾、施工零缺点、材料零抱怨、品质零投诉"的服务理念，在焦作家装界留下了良好的口碑，获得广大客户一致赞扬和认同。" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/style.css" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/index.css" />
+<link rel="stylesheet" href="__ROOT__/Templates/css/neiye.css" />
+<style type='text/css'>
+	.m_category_bd{ display:none;}
+</style>
+</head>
+
+
+<body>
+<include file="./templates/head.html" />
+<div class="tgbanner"></div>
+<div class="middle" style="width:1010px;">
+	<div class="tgys1">
+    	<span class="left">团购预售</span><span class="right">抄底团购价，天天来抢购</span>
+    </div>
+    <div class="tgys2">
+    	<div class="tgys2left">
+        	<ul>
+            	<Volist name='tuangou' id='vo'>
+            	<li>
+                	<img src="/uploadfiles/{$vo.image}" width="230" height="230"/>
+                	<div class="t2lr">
+                    	<h2><a href="__APP__/Tuangou/info?id={$vo.tuangou_id}">{$vo.title}</a></h2>
+                        <div class="qg" style="background:none;"><span class="ren">10人价</span><span class="jia">￥{$vo.10price}</span></div>
+                        <div class="qg">
+                        <span class="ren">30人价</span><span class="jia">￥{$vo.30price}</span><div class="ljqg"><a href="__APP__/Tuangou/info?id={$vo.tuangou_id}">立即抢购</a></div></div>
+                        <div class="yj">原价：¥{$vo.price}　　　已有<span class="ctr">&nbsp;{$vo.tuangourenshu}&nbsp;</span>人参团</div>
+                        <div class="beizhi">
+                        	{$vo.beizhu}
+                        </div>
+                    </div>
+                </li>
+                </Volist>
+            </ul>
+        </div>
+        <div class="tgys2right">
+        	<div class="service_mode"></div>
+        </div>
+    </div>    	
+</div>
+
+<include file="./templates/footer.html" />
+</body>
+</html>
